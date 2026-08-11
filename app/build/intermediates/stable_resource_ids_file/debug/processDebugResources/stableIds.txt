@@ -1,0 +1,4 @@
+com.example.blestudydemo:string/app_name = 0x7f030000
+com.example.blestudydemo:drawable/ic_launcher_foreground = 0x7f020000
+com.example.blestudydemo:style/AppTheme = 0x7f040000
+com.example.blestudydemo:color/ic_launcher_background = 0x7f010000

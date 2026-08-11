@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.blestudydemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission
+11-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:3:5-95
+12        android:name="android.permission.BLUETOOTH"
+12-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:3:22-65
+13        android:maxSdkVersion="30" />
+13-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:3:66-92
+14    <uses-permission
+14-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:4:5-101
+15        android:name="android.permission.BLUETOOTH_ADMIN"
+15-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:4:22-71
+16        android:maxSdkVersion="30" />
+16-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:4:72-98
+17    <uses-permission
+17-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:5:5-106
+18        android:name="android.permission.ACCESS_FINE_LOCATION"
+18-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:5:22-76
+19        android:maxSdkVersion="30" />
+19-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:5:77-103
+20    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+20-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:6:5-73
+20-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:6:22-70
+21    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+21-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:7:5-76
+21-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:7:22-73
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+22-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:8:5-78
+22-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:8:22-75
+23
+24    <uses-feature
+24-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:10:5-87
+25        android:name="android.hardware.bluetooth"
+25-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:10:19-60
+26        android:required="true" />
+26-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:10:61-84
+27    <uses-feature
+27-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:11:5-90
+28        android:name="android.hardware.bluetooth_le"
+28-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:11:19-63
+29        android:required="true" />
+29-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:11:64-87
+30
+31    <application
+31-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:13:5-28:19
+32        android:allowBackup="true"
+32-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:14:9-35
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@drawable/ic_launcher_foreground"
+35-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:15:9-56
+36        android:label="@string/app_name"
+36-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:16:9-41
+37        android:roundIcon="@drawable/ic_launcher_foreground"
+37-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:17:9-61
+38        android:supportsRtl="true"
+38-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:18:9-35
+39        android:theme="@style/AppTheme" >
+39-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:19:9-40
+40        <activity
+40-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:20:9-27:20
+41            android:name="com.example.blestudydemo.MainActivity"
+41-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:21:13-41
+42            android:exported="true" >
+42-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:22:13-36
+43            <intent-filter>
+43-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:23:13-26:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:24:17-69
+44-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:24:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:25:17-77
+46-->/Volumes/app/06SelfProject/BleStudyDemo/app/src/main/AndroidManifest.xml:25:27-74
+47            </intent-filter>
+48        </activity>
+49    </application>
+50
+51</manifest>
